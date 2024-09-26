@@ -10,7 +10,7 @@
 
 </Property>
 	<Item Name="Support" Type="Folder">
-		<Item Name="Get Library Name.vi" Type="VI" URL="../Get Library Name.vi"/>
+		<Item Name="Get Library Class Name.vi" Type="VI" URL="../Get Library Class Name.vi"/>
 		<Item Name="Kroki Plot.vi" Type="VI" URL="../Kroki Plot.vi"/>
 		<Item Name="Kroki URL--constant.vi" Type="VI" URL="../Kroki URL--constant.vi"/>
 		<Item Name="Replace tokens with underscore.vi" Type="VI" URL="../Replace tokens with underscore.vi"/>
