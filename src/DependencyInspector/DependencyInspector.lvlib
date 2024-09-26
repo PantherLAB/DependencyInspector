@@ -16,5 +16,6 @@
 		<Item Name="Replace tokens with underscore.vi" Type="VI" URL="../Replace tokens with underscore.vi"/>
 		<Item Name="VI Dependent Names.vi" Type="VI" URL="../VI Dependent Names.vi"/>
 	</Item>
+	<Item Name="Check if linker vi is under vilib.vi" Type="VI" URL="../Check if linker vi is under vilib.vi"/>
 	<Item Name="Dependency Inspector.vi" Type="VI" URL="../Dependency Inspector.vi"/>
 </Library>
