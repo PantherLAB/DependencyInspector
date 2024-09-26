@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-09-26 13:02:18" Modified_Date="2024-09-26 13:25:26" Creator="Enrique Noe" Comments="" ID="7e5e262118325b7cd3ebdb85200b3eca">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-09-26 13:02:18" Modified_Date="2024-09-26 14:26:41" Creator="Enrique Noe" Comments="" ID="fc0c04b223def2693b8901a4fcc92eeb">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Dependency_Inspector</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>DependencyInspector</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Dependency Inspector</Library_Output_Folder>
@@ -38,7 +38,7 @@ It has an option to search all the dependencies including vi.lib or just the pro
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/DependencyInspector</URL>
-      <Release_Notes>Initial Release</Release_Notes>
+      <Release_Notes>Worked on UI</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -118,10 +118,20 @@ It has an option to search all the dependencies including vi.lib or just the pro
         <Password/>
         <Locked_Only>false</Locked_Only>
       </Password_Overrides>
+      <Password_Overrides>
+        <Path>DependencyInspector.lvlib</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
       <Namespace_Overrides>
         <Path>.</Path>
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>DependencyInspector.lvlib</Path>
+        <Namespace_Type>Prefix</Namespace_Type>
+        <Namespace>PantherLAB_lib_</Namespace>
       </Namespace_Overrides>
       <Place_Folder_Contents>
         <Path/>
