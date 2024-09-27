@@ -114,6 +114,7 @@
 		<Item Name="Check if linker vi is under vilib.vi" Type="VI" URL="../Check if linker vi is under vilib.vi"/>
 		<Item Name="init Screen.vi" Type="VI" URL="../init Screen.vi"/>
 		<Item Name="VI Dependent Names.vi" Type="VI" URL="../VI Dependent Names.vi"/>
+		<Item Name="Handle File Patterns.vi" Type="VI" URL="../Handle File Patterns.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
