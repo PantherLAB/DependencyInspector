@@ -115,6 +115,10 @@
 		<Item Name="init Screen.vi" Type="VI" URL="../init Screen.vi"/>
 		<Item Name="VI Dependent Names.vi" Type="VI" URL="../VI Dependent Names.vi"/>
 		<Item Name="Handle File Patterns.vi" Type="VI" URL="../Handle File Patterns.vi"/>
+		<Item Name="arrow color--enum.ctl" Type="VI" URL="../arrow color--enum.ctl"/>
+		<Item Name="File Folder Filter.vi" Type="VI" URL="../File Folder Filter.vi"/>
+		<Item Name="File Explorer.lvlib" Type="Library" URL="../../File Explorer/File Explorer.lvlib"/>
+		<Item Name="shape--enum.ctl" Type="VI" URL="../shape--enum.ctl"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
