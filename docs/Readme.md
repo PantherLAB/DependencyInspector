@@ -4,9 +4,9 @@ This is a tool that uses a private linker method to parse the LabVIEW File relat
 
 Open LabVIEW and go to Tools-->PantherLAB-->Simple Dependency Inspector
 
+<iframe width="560" height="315" src="https://github.com/user-attachments/assets/11ca6f74-3081-4b22-a3ec-fe2b505240c1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-https://github.com/user-attachments/assets/11ca6f74-3081-4b22-a3ec-fe2b505240c1
 
 
 
