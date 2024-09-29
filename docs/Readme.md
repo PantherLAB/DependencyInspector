@@ -1,3 +1,13 @@
+This is a tool that uses a private linker method to parse the LabVIEW File relationships, this method requires a LabVIEW File (VI, lvlib, lvclass, ctl) and it provides an array of all the links that this file has, the most important aspect of this method is that it does not open the LabVIEW File.
+
+## Getting Started
+
+Open LabVIEW and go to Tools-->PantherLAB-->Simple Dependency Inspector
+
+
+
+https://github.com/user-attachments/assets/11ca6f74-3081-4b22-a3ec-fe2b505240c1
+
 
 
 ## Report Issues and Request Features:
