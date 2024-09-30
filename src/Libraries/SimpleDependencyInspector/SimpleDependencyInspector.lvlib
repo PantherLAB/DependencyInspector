@@ -1,8 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="19008000">
+<Library LVVersion="20008000">
 	<Property Name="NI.Lib.Description" Type="Str">This module plots the dependencies of a given project, it helps finding circular dependencies by looking at the arrows.</Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!**!!!*Q(C=\&gt;5^&lt;NN!%)&lt;B,W'+J.1.$(6#Y#+9SG5!85&amp;8G.[67J:-KWY!HU"8U"5'PI&amp;[6\S#]_ZK,#A)9$6*%"B??GHKW\`(3YK7?PEM@&gt;,TN4+]7FL\/)[H5\]9_$U-F:T;+XP*B^;V"Z@N,S.[U_H4]0PYC`H\[&gt;@V,^P(]`D8`6?+XMN\?&gt;NFP0IF_/P@AQ^K,S*K5I0K6&amp;.&lt;^DH*ETT*ETT*ETT)ATT)ATT)A^T*H&gt;T*H&gt;T*H&gt;T)D&gt;T)D&gt;T)D&lt;Q@Z#)8O=AB*9MH#S74*B-EH;%I/37?R*.Y%A]@F8A34_**0)G(,EI]C3@R**\%QT!FHM34?"*0YG'K,MF_E/.*0%SPQ".Y!E`A#4QMK=!4!),&amp;AIG$37!I;!QO!E`A#4R=+P!%HM!4?!)0T1I]A3@Q"*\!QZ#_+^%V\3$(QT2S0)\(]4A?R]05=DS/R`%Y(M@$=H)]DM&gt;"/!M[EU/1-]DJY(RQ0)[(8X)]DM@R/"\(1V/`1^ZXJGH;19\(]"A?QW.Y$!^4S0!9(M.D?!Q0U]LQ'"\$9XA-$UP*]"A?QW.!D%6:8M:ERE#DER%9(H\[UW,^,E787$_E?HB6$[8K96-^2+K(1X8464&gt;4&gt;:.5G[`;6.6GK4:"^=?JU#K-;B(6Y.:2-_=D^5$&gt;5S@KFLKBLKF,[K).`=-&gt;ZXH7]8D5Y8$1@L`8.%X;&lt;L@;&lt;$:;L^&gt;;,J&gt;;,"&lt;HV]!.R`G&amp;=(IPD6Q`T+O\X9`&lt;\\P(L^^WU_L,Q^0KPO8`Y0`T@`"OV%&gt;&gt;LM%?`140C#Q/!!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!**!!!*Q(C=\&gt;5^&lt;NN!%)&lt;B,W'+J.1.$(6#Y#+9SG5!85&amp;8G.[67J:-KWY!HU"8U"5'PI&amp;[6\S#]_ZK,#A)9$6*%"B??GHKW\`(3YK7?PEM@&gt;,TN4+]7FL\/)[H5\]9_$U-F:T;+XP*B^;V"Z@N,S.[U_H4]0PYC`H\[&gt;@V,^P(]`D8`6?+XMN\?&gt;NFP0IF_/P@AQ^K,S*K5I0K6&amp;.&lt;^DH*ETT*ETT*ETT)ATT)ATT)A^T*H&gt;T*H&gt;T*H&gt;T)D&gt;T)D&gt;T)D&lt;Q@Z#)8O=AB*9MH#S74*B-EH;%I/37?R*.Y%A]@F8A34_**0)G(,EI]C3@R**\%QT!FHM34?"*0YG'K,MF_E/.*0%SPQ".Y!E`A#4QMK=!4!),&amp;AIG$37!I;!QO!E`A#4R=+P!%HM!4?!)0T1I]A3@Q"*\!QZ#_+^%V\3$(QT2S0)\(]4A?R]05=DS/R`%Y(M@$=H)]DM&gt;"/!M[EU/1-]DJY(RQ0)[(8X)]DM@R/"\(1V/`1^ZXJGH;19\(]"A?QW.Y$!^4S0!9(M.D?!Q0U]LQ'"\$9XA-$UP*]"A?QW.!D%6:8M:ERE#DER%9(H\[UW,^,E787$_E?HB6$[8K96-^2+K(1X8464&gt;4&gt;:.5G[`;6.6GK4:"^=?JU#K-;B(6Y.:2-_=D^5$&gt;5S@KFLKBLKF,[K).`=-&gt;ZXH7]8D5Y8$1@L`8.%X;&lt;L@;&lt;$:;L^&gt;;,J&gt;;,"&lt;HV]!.R`G&amp;=(IPD6Q`T+O\X9`&lt;\\P(L^^WU_L,Q^0KPO8`Y0`T@`"OV%&gt;&gt;LM%?`140C#Q/!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.7</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -106,6 +106,14 @@
 		<Item Name="Wait on Module Sync.vi" Type="VI" URL="../Wait on Module Sync.vi"/>
 	</Item>
 	<Item Name="Support" Type="Folder">
+		<Item Name="FGV" Type="Folder">
+			<Item Name="Node ID FGV.vi" Type="VI" URL="../Node ID FGV.vi"/>
+			<Item Name="FGV Initialize.vi" Type="VI" URL="../FGV Initialize.vi"/>
+			<Item Name="Get Node ID.vi" Type="VI" URL="../Get Node ID.vi"/>
+			<Item Name="Set Node ID.vi" Type="VI" URL="../Set Node ID.vi"/>
+			<Item Name="FGV Functions--enum.ctl" Type="VI" URL="../FGV Functions--enum.ctl"/>
+		</Item>
+		<Item Name="File Explorer.lvlib" Type="Library" URL="../../File Explorer/File Explorer.lvlib"/>
 		<Item Name="Scan Project Dependencies.vi" Type="VI" URL="../Scan Project Dependencies.vi"/>
 		<Item Name="Get Library Class Name.vi" Type="VI" URL="../Get Library Class Name.vi"/>
 		<Item Name="Kroki Plot.vi" Type="VI" URL="../Kroki Plot.vi"/>
@@ -115,10 +123,9 @@
 		<Item Name="init Screen.vi" Type="VI" URL="../init Screen.vi"/>
 		<Item Name="VI Dependent Names.vi" Type="VI" URL="../VI Dependent Names.vi"/>
 		<Item Name="Handle File Patterns.vi" Type="VI" URL="../Handle File Patterns.vi"/>
-		<Item Name="arrow color--enum.ctl" Type="VI" URL="../arrow color--enum.ctl"/>
 		<Item Name="File Folder Filter.vi" Type="VI" URL="../File Folder Filter.vi"/>
-		<Item Name="File Explorer.lvlib" Type="Library" URL="../../File Explorer/File Explorer.lvlib"/>
-		<Item Name="shape--enum.ctl" Type="VI" URL="../shape--enum.ctl"/>
+		<Item Name="Random color Generator.vi" Type="VI" URL="../Random color Generator.vi"/>
+		<Item Name="Add Random Colors to Edges.vi" Type="VI" URL="../Add Random Colors to Edges.vi"/>
 		<Item Name="About Dependency Inspector.vi" Type="VI" URL="../About Dependency Inspector.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
