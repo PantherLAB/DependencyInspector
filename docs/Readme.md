@@ -23,6 +23,12 @@ Open LabVIEW and go to Tools-->PantherLAB-->Simple Dependency Inspector
 
 <iframe width="1024" height="768" src="https://github.com/user-attachments/assets/6bd5cf6e-1886-4d72-bc05-e60b0d485e06" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Symbols
+
+Dependency Inspector creates 2d pictures with different symbols depending on the file type:
+
+![simbols](https://github.com/user-attachments/assets/1836cc24-1e98-4899-9d53-ce3a34e07786)
+
 
 ## Report Issues and Request Features:
 Encountered an issue or have a feature suggestion? Let us know on GitHub: 
