@@ -119,14 +119,15 @@
 		<Item Name="Kroki Plot.vi" Type="VI" URL="../Kroki Plot.vi"/>
 		<Item Name="Kroki URL--constant.vi" Type="VI" URL="../Kroki URL--constant.vi"/>
 		<Item Name="Replace tokens with underscore.vi" Type="VI" URL="../Replace tokens with underscore.vi"/>
-		<Item Name="Check if linker vi is under vilib.vi" Type="VI" URL="../Check if linker vi is under vilib.vi"/>
+		<Item Name="Filter Check.vi" Type="VI" URL="../Filter Check.vi"/>
 		<Item Name="init Screen.vi" Type="VI" URL="../init Screen.vi"/>
 		<Item Name="VI Dependent Names.vi" Type="VI" URL="../VI Dependent Names.vi"/>
 		<Item Name="Handle File Patterns.vi" Type="VI" URL="../Handle File Patterns.vi"/>
 		<Item Name="File Folder Filter.vi" Type="VI" URL="../File Folder Filter.vi"/>
 		<Item Name="Random color Generator.vi" Type="VI" URL="../Random color Generator.vi"/>
-		<Item Name="Add Random Colors to Edges.vi" Type="VI" URL="../Add Random Colors to Edges.vi"/>
+		<Item Name="Modify Nodes and Edges.vi" Type="VI" URL="../Modify Nodes and Edges.vi"/>
 		<Item Name="About Dependency Inspector.vi" Type="VI" URL="../About Dependency Inspector.vi"/>
+		<Item Name="Exclude DQMH default Libraries.vi" Type="VI" URL="../Exclude DQMH default Libraries.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
