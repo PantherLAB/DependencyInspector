@@ -20,8 +20,8 @@ Open LabVIEW and go to Tools-->PantherLAB-->Simple Dependency Inspector
 5. Decife whether to include all LabVIEW dependencies in the plot. Be aware that this might result in a large a complex diagram that may be difficult to interpret.
 6. Click the "Find Dependencies from Selection" button to begin the analysis.
 
-<iframe width="1024" height="768" src="https://github.com/user-attachments/assets/1be49e76-be57-413d-a342-fa9c29882bc1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<iframe width="800" height="800" src="https://github.com/user-attachments/assets/6bd5cf6e-1886-4d72-bc05-e60b0d485e06" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Report Issues and Request Features:
