@@ -11,13 +11,14 @@ Open LabVIEW and go to Tools-->PantherLAB-->Simple Dependency Inspector
 
 ## Instructions
 
-![Dependency Inspector Instructions](https://github.com/user-attachments/assets/fd7fd67a-af37-429e-8e33-1147a1bb71a4)
+![Instructions](https://github.com/user-attachments/assets/dfc28802-3ec5-479d-b72d-c6080fe0481f)
 
-1. Choose the LabVIEW Code Folder Container.
-2. Select the specific folders or files you want to analyze for dependencies.
-3. If you selected a folder, you can specify which files within it to scan for dependencies.
-4. Customize your graphical preferences for nodes and arrows. I recommend using random colors for the arrows, as this provides the most efficient way to analyze relationships.
-5. Click the "Find Dependencies from Selection" button.
+1. Choose the Folder containing your LabVIEW code
+2. Select the specific files or folders you want to analyze for dependencies. Use Shift key to select multiple items.
+3. If you selected folders, specify the LabVIEW file types to include in the analysis.
+4. Select the file types you want to include in your plot.
+5. Decife whether to include all LabVIEW dependencies in the plot. Be aware that this might result in a large a complex diagram that may be difficult to interpret.
+6. Click the "Find Dependencies from Selection" button to begin the analysis.
 
 <iframe width="1024" height="768" src="https://github.com/user-attachments/assets/1be49e76-be57-413d-a342-fa9c29882bc1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
