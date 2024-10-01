@@ -29,6 +29,10 @@ Dependency Inspector creates 2d pictures with different symbols depending on the
 
 ![simbols](https://github.com/user-attachments/assets/1836cc24-1e98-4899-9d53-ce3a34e07786)
 
+1. Library files (*.lvlib)
+2. Virtual Instrument (*.vi)
+3. Typedefs (*.ctl)
+4. Class (*.lvclass)
 
 ## Report Issues and Request Features:
 Encountered an issue or have a feature suggestion? Let us know on GitHub: 
