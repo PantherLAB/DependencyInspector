@@ -1,5 +1,7 @@
 <a href="https://www.vipm.io/package/pantherlab_lib_dependency_inspector/"> <img src="https://www.vipm.io/package/pantherlab_lib_dependency_inspector/badge.svg?metric=installs"></a> <a href="https://www.vipm.io/package/pantherlab_lib_dependency_inspector/"><img src="https://www.vipm.io/package/pantherlab_lib_dependency_inspector/badge.svg?metric=stars"></a>
 
+> [!WARNING]  
+> This Tools uses an online service (kroki.io) for the diagram generation.
 
 This tool employs a private linker method to analyze the relationships between LabVIEW files. This method requires a LabVIEW file (VI, LVlib, LVclass, or CTL) as input and generates an array containing all the links associated with that file. A key advantage of this method is that it does not necessitate opening the LabVIEW file itself.
 
