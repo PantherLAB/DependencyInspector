@@ -23,6 +23,9 @@
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test SimpleDependencyInspector API.vi" Type="VI" URL="../Libraries/SimpleDependencyInspector/Test SimpleDependencyInspector API.vi"/>
 		</Item>
+		<Item Name="CMD Execute Graphviz.vi" Type="VI" URL="../support/CMD Execute Graphviz.vi"/>
+		<Item Name="CMD Install Graphviz.vi" Type="VI" URL="../support/CMD Install Graphviz.vi"/>
+		<Item Name="CMD Uninstall Graphviz.vi" Type="VI" URL="../support/CMD Uninstall Graphviz.vi"/>
 		<Item Name="Simple Dependency Inspector.vi" Type="VI" URL="../Simple Dependency Inspector.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -122,6 +125,7 @@
 				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
