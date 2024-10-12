@@ -28,6 +28,7 @@
 				<Item Name="Server Status Updated Argument--cluster.ctl" Type="VI" URL="../Server Status Updated Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Files Selection--cluster.ctl" Type="VI" URL="../Files Selection--cluster.ctl"/>
+			<Item Name="Image Type--enum.ctl" Type="VI" URL="../Image Type--enum.ctl"/>
 		</Item>
 		<Item Name="Requests" Type="Folder">
 			<Item Name="Show Panel.vi" Type="VI" URL="../Show Panel.vi"/>
@@ -122,8 +123,6 @@
 		<Item Name="File Explorer.lvlib" Type="Library" URL="../../File Explorer/File Explorer.lvlib"/>
 		<Item Name="Scan Project Dependencies.vi" Type="VI" URL="../Scan Project Dependencies.vi"/>
 		<Item Name="Get Library Class Name.vi" Type="VI" URL="../Get Library Class Name.vi"/>
-		<Item Name="Kroki Plot.vi" Type="VI" URL="../Kroki Plot.vi"/>
-		<Item Name="Kroki URL--constant.vi" Type="VI" URL="../Kroki URL--constant.vi"/>
 		<Item Name="Replace tokens with underscore.vi" Type="VI" URL="../Replace tokens with underscore.vi"/>
 		<Item Name="Filter Check.vi" Type="VI" URL="../Filter Check.vi"/>
 		<Item Name="init Screen.vi" Type="VI" URL="../init Screen.vi"/>
@@ -139,7 +138,6 @@
 		<Item Name="CMD Execute Graphviz.vi" Type="VI" URL="../../../support/CMD Execute Graphviz.vi"/>
 		<Item Name="CMD Install Graphviz.vi" Type="VI" URL="../../../support/CMD Install Graphviz.vi"/>
 		<Item Name="CMD Uninstall Graphviz.vi" Type="VI" URL="../../../support/CMD Uninstall Graphviz.vi"/>
-		<Item Name="Simple Dependency Inspector.vi" Type="VI" URL="../../../Simple Dependency Inspector.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
