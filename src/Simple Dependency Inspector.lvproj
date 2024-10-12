@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -23,10 +24,6 @@
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test SimpleDependencyInspector API.vi" Type="VI" URL="../Libraries/SimpleDependencyInspector/Test SimpleDependencyInspector API.vi"/>
 		</Item>
-		<Item Name="CMD Execute Graphviz.vi" Type="VI" URL="../support/CMD Execute Graphviz.vi"/>
-		<Item Name="CMD Install Graphviz.vi" Type="VI" URL="../support/CMD Install Graphviz.vi"/>
-		<Item Name="CMD Uninstall Graphviz.vi" Type="VI" URL="../support/CMD Uninstall Graphviz.vi"/>
-		<Item Name="Simple Dependency Inspector.vi" Type="VI" URL="../Simple Dependency Inspector.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -135,6 +132,8 @@
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
+				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

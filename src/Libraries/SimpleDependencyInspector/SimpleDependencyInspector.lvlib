@@ -27,6 +27,7 @@
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
 				<Item Name="Server Status Updated Argument--cluster.ctl" Type="VI" URL="../Server Status Updated Argument--cluster.ctl"/>
 			</Item>
+			<Item Name="Files Selection--cluster.ctl" Type="VI" URL="../Files Selection--cluster.ctl"/>
 		</Item>
 		<Item Name="Requests" Type="Folder">
 			<Item Name="Show Panel.vi" Type="VI" URL="../Show Panel.vi"/>
@@ -70,13 +71,18 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Constants" Type="Folder">
+			<Item Name="Graphviz Path.vi" Type="VI" URL="../Graphviz Path.vi"/>
 			<Item Name="Module Name--constant.vi" Type="VI" URL="../Module Name--constant.vi"/>
 			<Item Name="Module Timeout--constant.vi" Type="VI" URL="../Module Timeout--constant.vi"/>
 		</Item>
 		<Item Name="Errors" Type="Folder">
+			<Item Name="Graphviz Already Installed--error.vi" Type="VI" URL="../Graphviz Already Installed--error.vi"/>
+			<Item Name="graphviz already uninstalled--error.vi" Type="VI" URL="../graphviz already uninstalled--error.vi"/>
+			<Item Name="Graphviz Not Installed--error.vi" Type="VI" URL="../Graphviz Not Installed--error.vi"/>
 			<Item Name="Module Not Running--error.vi" Type="VI" URL="../Module Not Running--error.vi"/>
 			<Item Name="Module Not Stopped--error.vi" Type="VI" URL="../Module Not Stopped--error.vi"/>
 			<Item Name="Module Not Synced--error.vi" Type="VI" URL="../Module Not Synced--error.vi"/>
+			<Item Name="No Internet Connection--error.vi" Type="VI" URL="../No Internet Connection--error.vi"/>
 			<Item Name="Request and Wait for Reply Timeout--error.vi" Type="VI" URL="../Request and Wait for Reply Timeout--error.vi"/>
 		</Item>
 		<Item Name="Framework Support" Type="Folder">
@@ -128,6 +134,12 @@
 		<Item Name="Modify Nodes and Edges.vi" Type="VI" URL="../Modify Nodes and Edges.vi"/>
 		<Item Name="About Dependency Inspector.vi" Type="VI" URL="../About Dependency Inspector.vi"/>
 		<Item Name="Exclude DQMH default Libraries.vi" Type="VI" URL="../Exclude DQMH default Libraries.vi"/>
+	</Item>
+	<Item Name="CMD Commands" Type="Folder">
+		<Item Name="CMD Execute Graphviz.vi" Type="VI" URL="../../../support/CMD Execute Graphviz.vi"/>
+		<Item Name="CMD Install Graphviz.vi" Type="VI" URL="../../../support/CMD Install Graphviz.vi"/>
+		<Item Name="CMD Uninstall Graphviz.vi" Type="VI" URL="../../../support/CMD Uninstall Graphviz.vi"/>
+		<Item Name="Simple Dependency Inspector.vi" Type="VI" URL="../../../Simple Dependency Inspector.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
