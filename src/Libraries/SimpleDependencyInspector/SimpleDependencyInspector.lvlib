@@ -25,7 +25,6 @@
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
-				<Item Name="Server Status Updated Argument--cluster.ctl" Type="VI" URL="../Server Status Updated Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Files Selection--cluster.ctl" Type="VI" URL="../Files Selection--cluster.ctl"/>
 			<Item Name="Image Type--enum.ctl" Type="VI" URL="../Image Type--enum.ctl"/>
@@ -54,7 +53,6 @@
 		<Item Name="Error Reported.vi" Type="VI" URL="../Error Reported.vi"/>
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
-		<Item Name="Server Status Updated.vi" Type="VI" URL="../Server Status Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -113,6 +111,12 @@
 		<Item Name="Wait on Module Sync.vi" Type="VI" URL="../Wait on Module Sync.vi"/>
 	</Item>
 	<Item Name="Support" Type="Folder">
+		<Item Name="CMD Commands" Type="Folder">
+			<Item Name="CMD Execute Graphviz.vi" Type="VI" URL="../../../support/CMD Execute Graphviz.vi"/>
+			<Item Name="CMD Install Graphviz.vi" Type="VI" URL="../../../support/CMD Install Graphviz.vi"/>
+			<Item Name="CMD Get Graphviz Version.vi" Type="VI" URL="../../../support/CMD Get Graphviz Version.vi"/>
+			<Item Name="CMD Uninstall Graphviz.vi" Type="VI" URL="../../../support/CMD Uninstall Graphviz.vi"/>
+		</Item>
 		<Item Name="FGV" Type="Folder">
 			<Item Name="Node ID FGV.vi" Type="VI" URL="../Node ID FGV.vi"/>
 			<Item Name="FGV Initialize.vi" Type="VI" URL="../FGV Initialize.vi"/>
@@ -120,24 +124,28 @@
 			<Item Name="Set Node ID.vi" Type="VI" URL="../Set Node ID.vi"/>
 			<Item Name="FGV Functions--enum.ctl" Type="VI" URL="../FGV Functions--enum.ctl"/>
 		</Item>
-		<Item Name="File Explorer.lvlib" Type="Library" URL="../../File Explorer/File Explorer.lvlib"/>
-		<Item Name="Scan Project Dependencies.vi" Type="VI" URL="../Scan Project Dependencies.vi"/>
-		<Item Name="Get Library Class Name.vi" Type="VI" URL="../Get Library Class Name.vi"/>
-		<Item Name="Replace tokens with underscore.vi" Type="VI" URL="../Replace tokens with underscore.vi"/>
-		<Item Name="Filter Check.vi" Type="VI" URL="../Filter Check.vi"/>
+		<Item Name="File Explorer" Type="Folder">
+			<Item Name="File Explorer.lvlib" Type="Library" URL="../../File Explorer/File Explorer.lvlib"/>
+		</Item>
+		<Item Name="Scan and Create Plot VIs" Type="Folder">
+			<Item Name="Filter Check.vi" Type="VI" URL="../Filter Check.vi"/>
+			<Item Name="Handle File Patterns.vi" Type="VI" URL="../Handle File Patterns.vi"/>
+			<Item Name="File Folder Filter.vi" Type="VI" URL="../File Folder Filter.vi"/>
+			<Item Name="Random color Generator.vi" Type="VI" URL="../Random color Generator.vi"/>
+			<Item Name="Modify Nodes and Edges.vi" Type="VI" URL="../Modify Nodes and Edges.vi"/>
+			<Item Name="Exclude DQMH default Libraries.vi" Type="VI" URL="../Exclude DQMH default Libraries.vi"/>
+			<Item Name="Read Working Path.vi" Type="VI" URL="../Read Working Path.vi"/>
+			<Item Name="Write Working Path.vi" Type="VI" URL="../Write Working Path.vi"/>
+			<Item Name="Working Path key.vi" Type="VI" URL="../Working Path key.vi"/>
+			<Item Name="Image Type key.vi" Type="VI" URL="../Image Type key.vi"/>
+			<Item Name="Write Image Type.vi" Type="VI" URL="../Write Image Type.vi"/>
+			<Item Name="Read Image Type.vi" Type="VI" URL="../Read Image Type.vi"/>
+			<Item Name="Scan and create Render Stream.vi" Type="VI" URL="../Scan and create Render Stream.vi"/>
+			<Item Name="Create diagram name.vi" Type="VI" URL="../Create diagram name.vi"/>
+		</Item>
 		<Item Name="init Screen.vi" Type="VI" URL="../init Screen.vi"/>
-		<Item Name="VI Dependent Names.vi" Type="VI" URL="../VI Dependent Names.vi"/>
-		<Item Name="Handle File Patterns.vi" Type="VI" URL="../Handle File Patterns.vi"/>
-		<Item Name="File Folder Filter.vi" Type="VI" URL="../File Folder Filter.vi"/>
-		<Item Name="Random color Generator.vi" Type="VI" URL="../Random color Generator.vi"/>
-		<Item Name="Modify Nodes and Edges.vi" Type="VI" URL="../Modify Nodes and Edges.vi"/>
+		<Item Name="Scan Project Dependencies.vi" Type="VI" URL="../Scan Project Dependencies.vi"/>
 		<Item Name="About Dependency Inspector.vi" Type="VI" URL="../About Dependency Inspector.vi"/>
-		<Item Name="Exclude DQMH default Libraries.vi" Type="VI" URL="../Exclude DQMH default Libraries.vi"/>
-	</Item>
-	<Item Name="CMD Commands" Type="Folder">
-		<Item Name="CMD Execute Graphviz.vi" Type="VI" URL="../../../support/CMD Execute Graphviz.vi"/>
-		<Item Name="CMD Install Graphviz.vi" Type="VI" URL="../../../support/CMD Install Graphviz.vi"/>
-		<Item Name="CMD Uninstall Graphviz.vi" Type="VI" URL="../../../support/CMD Uninstall Graphviz.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
