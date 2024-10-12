@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-09-26 13:02:18" Modified_Date="2024-10-04 10:26:41" Creator="Enrique Noe" Comments="" ID="0af242622d17f23eca9d1540a0f7b085">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-09-26 13:02:18" Modified_Date="2024-10-12 15:05:35" Creator="Enrique Noe" Comments="" ID="9a45b501d2ea958a12273dd88c9efc92">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Dependency_Inspector</Package_File_Name>
-    <Library_Version>1.0.0.11</Library_Version>
+    <Library_Version>2.0.0.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Dependency Inspector</Library_Output_Folder>
@@ -32,18 +32,30 @@
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>Dependency Inspector.vipc</VI_Package_Configuration_File>
     <Description>
-      <One_Line_Description_Summary>Simple Dependency Inspector, searches all the libraries/clases in a project and finds its dependencies.</One_Line_Description_Summary>
+      <One_Line_Description_Summary>Dependency Inspector, searches all the libraries/clases in a project and finds its dependencies.</One_Line_Description_Summary>
       <Description>&lt;b&gt;Simple Dependency Inspector for LabVIEW&lt;/b&gt;
 
 Open-source LabVIEW tool designed to simplify the process of understanding LabVIEW files dependencies. By creating a clear 2D visualization of your selected files relationships you can quickly identify potential issues and optimize your code structure.
 
 This tool employs a private linker method to analyze the relationships between LabVIEW files. This method requires a LabVIEW file (VI, LVlib, LVclass, or CTL) as input and generates an array containing all the links associated with that file. A key advantage of this method is that it does not necessitate opening the LabVIEW file itself.
 
+&lt;b&gt;Graphviz dependency&lt;/b&gt;
+This tool relies on Graphviz open source tool.
+
+https://graphviz.org/
+
+This tool detects if Graphviz is installed, if not, it enables a button to run a command to install it, acept the install if you want to use this tool.
+After installing no internet is required, everything will work localy.
+
+&lt;b&gt;For Linux&lt;/b&gt;, it will pop up the instructions to install graphviz, sudo access required.
+
 &lt;b&gt;Getting Started&lt;/b&gt;
 Open LabVIEW and go to Tools–&gt;PantherLAB–&gt;Simple Dependency Inspector
 
 &lt;b&gt;Report Issues and Request Features:&lt;/b&gt;
-Encountered an issue or have a feature suggestion? Let us know on GitHub: https://github.com/PantherLAB/DependencyInspector/issues
+Encountered an issue or have a feature suggestion? Let us know on 
+
+GitHub: https://github.com/PantherLAB/DependencyInspector/issues
 
 &lt;b&gt;Struggling with LabVIEW and/or DQMH projects? &lt;/b&gt;
 We can help! Our team (CLA, LabVIEW Champion, DQMH Trusted Advisor) offers:
@@ -54,9 +66,7 @@ We can help! Our team (CLA, LabVIEW Champion, DQMH Trusted Advisor) offers:
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/DependencyInspector</URL>
-      <Release_Notes>[FIX] If a selected library have missing vis, the linker method will encounter the error 7. We now inform the user about this issue and prevent the problematic library/file from being included in the plot.
-
-Removed Dependency to Advanced HTTP from NI, it works great witht he default HTTP Client.</Release_Notes>
+      <Release_Notes>[#1] removed access to kroki.io public web service, instead this version works with graphviz localy.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
