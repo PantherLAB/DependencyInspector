@@ -1,8 +1,5 @@
 <a href="https://www.vipm.io/package/pantherlab_lib_dependency_inspector/"> <img src="https://www.vipm.io/package/pantherlab_lib_dependency_inspector/badge.svg?metric=installs"></a> <a href="https://www.vipm.io/package/pantherlab_lib_dependency_inspector/"><img src="https://www.vipm.io/package/pantherlab_lib_dependency_inspector/badge.svg?metric=stars"></a>
 
-> [!WARNING]  
-> This Tools uses an online service (kroki.io) for the diagram generation.
-
 This tool employs a private linker method to analyze the relationships between LabVIEW files. This method requires a LabVIEW file (VI, LVlib, LVclass, or CTL) as input and generates an array containing all the links associated with that file. A key advantage of this method is that it does not necessitate opening the LabVIEW file itself.
 
 ## Getting Started
@@ -13,17 +10,38 @@ Open LabVIEW and go to Tools-->PantherLAB-->Simple Dependency Inspector
 
 ## Instructions
 
-![Instructions](https://github.com/user-attachments/assets/dfc28802-3ec5-479d-b72d-c6080fe0481f)
+![2024-10-14_14-34-18](https://github.com/user-attachments/assets/3bbc5774-548d-4d1a-b2ef-28f4c57c0bc5)
 
-1. Choose the Folder containing your LabVIEW code
-2. Select the specific files or folders you want to analyze for dependencies. Use Shift key to select multiple items.
+
+1. Choose the folder containing your LabVIEW code.
+2. Select the specific files or folders you want to analyze for dependencies. Use the Shift key to select multiple items.
 3. If you selected folders, specify the LabVIEW file types to include in the analysis.
-4. Select the file types you want to include in your plot.
-5. Decife whether to include all LabVIEW dependencies in the plot. Be aware that this might result in a large a complex diagram that may be difficult to interpret.
-6. Click the "Find Dependencies from Selection" button to begin the analysis.
-
+4.Specify the Working Path, where the .dot file and dependency image will be saved.
+5. Select the Image type for the dependencies. SVG is the preferred option, but LabVIEW cannot handle these images directly. If you choose SVG, the image will open in your default browser.
+6.Select the File Types you want to include in your plot.
+7. Decide whether to include all LabVIEW dependencies in the plot. Note that this may result in a large and complex diagram that can be difficult to interpret.
+8.Click the "Find Dependencies from Selection" button to begin the analysis.
 
 <iframe width="1024" height="768" src="https://github.com/user-attachments/assets/6bd5cf6e-1886-4d72-bc05-e60b0d485e06" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Install Graphviz
+
+[Graphviz web site](https://www.graphviz.org)
+
+![install](https://github.com/user-attachments/assets/3635e128-68ae-4264-a108-cf0440d1fe48)
+
+This tool utilizes Graphviz to generate the plots, Dependency Inspector does a check internally to see if this tool is installed in your OS, if not this 'Install Graphviz' button will be shown, click it and accept the install dialog (windows), if you want to do it manually go to graphviz web site and check for instructions.
+
+For windows Dependency Instpector will execute this command line, you'll need to accept and that is all.
+```console
+winget install graphviz
+```
+
+For Linux you'll need sudo level and execute this in a new terminal
+```console
+sudo apt install graphviz
+```
+
 
 ## Symbols
 
