@@ -146,6 +146,7 @@
 		<Item Name="init Screen.vi" Type="VI" URL="../init Screen.vi"/>
 		<Item Name="Scan Project Dependencies.vi" Type="VI" URL="../Scan Project Dependencies.vi"/>
 		<Item Name="About Dependency Inspector.vi" Type="VI" URL="../About Dependency Inspector.vi"/>
+		<Item Name="Filter out owner.vi" Type="VI" URL="../Filter out owner.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
