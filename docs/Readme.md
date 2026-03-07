@@ -5,11 +5,11 @@ This tool utilizes a private linker method to analyze the relationships between 
 ## Demo
 This is the tool scanning the classic DQMH Version of the Continuous Measurement and Logging, as you can see, double arrows are going from the "Settings Editor.lvlib" to the "Acquisition.lvlib", if you are familiar with this project, the Settings Editor DQMH Module is the only one that does not have other modules as dependencies, it is not calling any other modules.
 
-<iframe scrolling='no' frameborder='0' style='width: 1920px; height: 1080px; border:0;' src='https://app.screencast.com/8J4NDZpAOoaQE/e' allowfullscreen></iframe>
+<iframe scrolling='no' frameborder='0' style='width: 1024px; height: 602px; border:0;' src='https://app.screencast.com/sG52Y1iswZiWq/e' allowfullscreen></iframe>
 
 By removing a call made to the Acquisition module and running the tool again, we can see that the output is what you would expect.
 
-<iframe scrolling='no' frameborder='0' style='width: 1920px; height: 1080px; border:0;' src='https://app.screencast.com/sG52Y1iswZiWq/e' allowfullscreen></iframe>
+<iframe scrolling='no' frameborder='0' style='width: 1024px; height: 604px; border:0;' src='https://app.screencast.com/8J4NDZpAOoaQE/e' allowfullscreen></iframe>
 
 ## Getting Started
 
